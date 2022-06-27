@@ -32,28 +32,28 @@ spec:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: padmin.<your-openshift-domain>
+                  - name: padmin.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: portal-admin-endpoint-secret
               portalUIEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: portal.<your-openshift-domain>
+                  - name: portal.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: portal-web-endpoint-secret
               databaseLogsVolumeClaimTemplate:
-                storageClassName: <your-block-storage-class>
+                storageClassName: ibmc-block-gold
                 volumeSize: 12Gi
               databaseVolumeClaimTemplate:
-                storageClassName: <your-block-storage-class>
+                storageClassName: ibmc-block-gold
                 volumeSize: 300Gi
               backupVolumeClaimTemplate:
-                storageClassName: <your-block-storage-class>
+                storageClassName: ibmc-block-gold
                 volumeSize: 300Gi
               webVolumeClaimTemplate:
-                storageClassName: <your-block-storage-class>
+                storageClassName: ibmc-block-gold
                 volumeSize: 200Gi
               adminVolumeClaimTemplate:
-                storageClassName: <your-block-storage-class>
+                storageClassName: ibmc-block-gold
                 volumeSize: 20Gi
               # In cert-manager 3.14.0 (which ships with Common Services 3.12), they picked up the upstream cert-manager 1.5 to replace cert-manager controller 0.10.
               # In order to keep it backward compatible, they have a convert in the cert-manager operator to convert 0.10 cert-manager CRs into 1.5 version to use cert-manager controller 1.5. 
