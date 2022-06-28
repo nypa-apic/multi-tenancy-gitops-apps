@@ -43,25 +43,25 @@ spec:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: admin.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: admin.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: management-cm-endpoint-secret
               apiManagerEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: manager.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: manager.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: management-apim-endpoint-secret
               platformAPIEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: api.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: api.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: management-api-endpoint-secret
               consumerAPIEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: consumer.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: consumer.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: management-consumer-endpoint-secret
               databaseVolumeClaimTemplate:
                 storageClassName: ibmc-block-gold

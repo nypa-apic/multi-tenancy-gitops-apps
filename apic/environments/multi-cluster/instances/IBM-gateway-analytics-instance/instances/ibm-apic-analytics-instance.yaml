@@ -49,7 +49,7 @@ spec:
                   annotations:
                     certmanager.k8s.io/issuer: ingress-issuer
                   hosts:
-                    - name: ac.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                    - name: ac.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                       secretName: analytics-endpoint-secret
               ingestion:
                 enabled: true
@@ -65,7 +65,7 @@ spec:
                   annotations:
                     certmanager.k8s.io/issuer: ingress-issuer
                   hosts:
-                    - name: ai.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                    - name: ai.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                       secretName: analytics-ai-endpoint-secret
               storage:
                 clientAuthEnabled: true

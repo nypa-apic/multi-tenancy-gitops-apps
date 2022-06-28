@@ -32,13 +32,13 @@ spec:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: padmin.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: padmin.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: portal-admin-endpoint-secret
               portalUIEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: portal.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: portal.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: portal-web-endpoint-secret
               databaseLogsVolumeClaimTemplate:
                 storageClassName: ibmc-block-gold

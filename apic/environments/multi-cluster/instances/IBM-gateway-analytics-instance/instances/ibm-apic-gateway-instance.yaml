@@ -33,13 +33,13 @@ spec:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: gw.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: gw.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: gateway-endpoint-secret
               gatewayManagerEndpoint:
                 annotations:
                   certmanager.k8s.io/issuer: ingress-issuer
                 hosts:
-                  - name: gwmanager.itzroks-6630023d5n-go222e-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
+                  - name: gwmanager.itzroks-66300214ca-705wna-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud
                     secretName: gateway-manager-endpoint-secret
               apicGatewayServiceTLS:
                 secretName: gateway-service
